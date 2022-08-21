@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.221a8620.css",
+    "main.js": "/static/js/main.8c2f17b3.js",
+    "static/js/787.8afc6af1.chunk.js": "/static/js/787.8afc6af1.chunk.js",
+    "static/media/PTRootUI_Light.woff2": "/static/media/PTRootUI_Light.4e1d299c6bbc1d2ea808.woff2",
+    "static/media/PTRootUI_Medium.woff2": "/static/media/PTRootUI_Medium.44ea5906be7a83324455.woff2",
+    "static/media/PTRootUI_Bold.woff2": "/static/media/PTRootUI_Bold.1834e106db9cee9967ce.woff2",
+    "static/media/PTRootUI_Regular.woff2": "/static/media/PTRootUI_Regular.64ee435dfb59d55ffb3f.woff2",
+    "static/media/tip.svg": "/static/media/tip.65657d848b18bde08498.svg",
+    "static/media/square.svg": "/static/media/square.fd635702662c0a16383c.svg",
+    "index.html": "/index.html",
+    "static/media/calendar.svg": "/static/media/calendar.3434f5cb8724c632d767.svg",
+    "static/media/left.svg": "/static/media/left.748fed6129cd63c439d5.svg",
+    "static/media/arrow_down.svg": "/static/media/arrow_down.7ac09a30d74553dd5afd.svg",
+    "static/media/checkbox.svg": "/static/media/checkbox.e89a291cf28f084e92c6.svg",
+    "static/media/checkbox_active.svg": "/static/media/checkbox_active.662e0f59c181a56f037a.svg",
+    "main.221a8620.css.map": "/static/css/main.221a8620.css.map",
+    "main.8c2f17b3.js.map": "/static/js/main.8c2f17b3.js.map",
+    "787.8afc6af1.chunk.js.map": "/static/js/787.8afc6af1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.221a8620.css",
+    "static/js/main.8c2f17b3.js"
+  ]
+}
