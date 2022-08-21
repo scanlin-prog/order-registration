@@ -1,0 +1,38 @@
+.method {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.method:last-of-type {
+	border-bottom: none;
+}
+
+.method__text {
+	margin: 25px 0;
+	font-size: var(--input-text);
+}
+
+.method__button {
+	width: 120px;
+	height: 44px;
+	border: none;
+	border-radius: 8px;
+	background-color: var(--universal);
+	color: var(--text-white);
+	font-family: var(--userfont);
+	font-size: var(--button-text);
+	font-weight: var(--medium-weight);
+	cursor: pointer;
+}
+
+@media (max-width : 575px) {
+
+	.method__button {
+		width: 80px;
+		height: 32px;
+		font-size: var(--input-text);
+		flex-shrink: 0;
+	}
+}

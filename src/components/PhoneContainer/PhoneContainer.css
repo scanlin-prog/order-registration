@@ -1,0 +1,19 @@
+.phone-container {
+	display: flex;
+	width: 100%;
+	margin-right: 24px;
+}
+
+.phone-code {
+	border-radius: 8px 0 0 8px;
+}
+
+.phone-number {
+	border-radius: 0 8px 8px 0;
+}
+
+@media (max-width: 767px) {
+	.phone-container {
+		margin: 0 0 20px;
+	}
+}

@@ -1,0 +1,36 @@
+.tab {
+	background-color: #FFFFFF;
+	border: 1px solid #ECEEF8;
+	border-radius: 4px;
+	margin-right: 8px;
+	cursor: pointer;
+	transition: background-color var(--transition);
+}
+
+.tab:last-of-type {
+	margin-right: 0;
+}
+
+.tab:hover {
+	background-color: var(--background);
+}
+
+.tab_active {
+	background-color: var(--accent);
+	border: 1px solid var(--accent);
+}
+
+.tab_active:hover {
+	background-color: var(--accent);
+}
+
+.tab__text {
+	margin: 7px 16px;
+	padding: 0;
+	font-size: var(--input-text);
+	text-align: center;
+}
+
+.tab__text_active {
+	color: var(--text-white);
+}

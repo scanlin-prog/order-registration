@@ -1,0 +1,24 @@
+.time {
+	padding: 16px 32px;
+	border: 1px solid var(--background-dark);
+	border-radius: 16px;
+	cursor: pointer;
+}
+
+.time_active {
+	border: 1px solid var(--accent);
+	background-color: var(--background-dark);
+}
+
+.time__number {
+	text-align: center;
+	margin: 0;
+	font-size: var(--medium-text);
+	font-weight: var(--medium-weight);
+}
+
+@media (max-width: 991px) {
+	.time {
+		padding: 12px 24px;
+	}
+}

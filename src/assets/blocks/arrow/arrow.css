@@ -1,0 +1,9 @@
+.arrow {
+	background-image: url(../../../icons/left.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}

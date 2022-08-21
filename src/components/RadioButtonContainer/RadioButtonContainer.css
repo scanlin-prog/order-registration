@@ -1,0 +1,15 @@
+.radio-button-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.radio-button-container_margin {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 575px) {
+	.radio-button-container {
+		flex-direction: column;
+	}
+}

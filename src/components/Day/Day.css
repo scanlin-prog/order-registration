@@ -1,0 +1,30 @@
+.day {
+	padding: 12px 16px;
+	border: 1px solid transparent;
+	border-radius: 16px;
+	cursor: pointer;
+}
+
+.day_active {
+	border: 1px solid var(--accent);
+	background-color: var(--background-dark);
+}
+
+.day__number {
+	font-size: var(--medium-text);
+	font-weight: var(--medium-weight);
+	text-align: center;
+	margin: 0 0 2px;
+}
+
+.day__weekday {
+	font-weight: var(--medium-weight);
+	text-align: center;
+	margin: 0;
+}
+
+@media (max-width: 991px) {
+	.day {
+		padding: 8px 10px;
+	}
+}

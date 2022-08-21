@@ -1,0 +1,14 @@
+.textarea {
+	max-width: 100%;
+	width: 100%;
+	padding: 16px;
+	min-height: 184px;
+	border: 1px solid var(--background-dark);
+	border-radius: 8px;
+	font-size: var(--input-text);
+	outline: none;
+}
+
+.textarea::placeholder {
+	color: var(--text-light);
+}

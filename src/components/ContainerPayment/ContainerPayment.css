@@ -1,0 +1,15 @@
+.container-payment {
+	width: 108%;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12);
+	border-radius: 16px;
+	padding: 24px;
+}
+
+@media (max-width : 991px) {
+	.container-payment {
+		width: 90%;
+	}
+}

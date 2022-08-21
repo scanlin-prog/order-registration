@@ -1,0 +1,17 @@
+.tab-container {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+@media (max-width : 767px) {
+	.tab-container {
+		max-width: 328px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width : 575px) {
+	.tab-container {
+		margin-bottom: 20px;
+	}
+}

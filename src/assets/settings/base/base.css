@@ -1,0 +1,43 @@
+:root {
+	--accent: #6D97FF;
+	--universal: #FF1B7A;
+	--text: #1A2A45;
+	--text-white: #FFFFFF;
+	--text-light: #8790AE;
+	--background: #F7F9FE;
+	--background-dark: #E0E3F4;
+
+	--header-page: 2.75rem;
+	--section-page: 2rem;
+	--small-text: 1rem;
+	--medium-text: 1.5rem;
+	--input-text: 0.94rem;
+	--button-text: 1.125rem;
+	--lineheight: 1.2;
+	--regular-weight: 400;
+	--medium-weight: 500;
+	--userfont: PTRootUI-or, sans-serif;
+
+	--transition: .25s ease-out;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--userfont);
+	font-size: var(--small-text);
+	line-height: var(--lineheight);
+	font-weight: var(--regular-weight);
+	color: var(--text);
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
