@@ -6,4 +6,14 @@
 	width: 24px;
 	height: 24px;
 	cursor: pointer;
+	opacity: 1;
+	transition: opacity var(--transition);
+}
+
+.arrow:hover {
+	opacity: 0.5;
+}
+
+.arrow:active {
+	opacity: 0.2;
 }

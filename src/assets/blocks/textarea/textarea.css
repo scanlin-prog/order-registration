@@ -7,6 +7,18 @@
 	border-radius: 8px;
 	font-size: var(--input-text);
 	outline: none;
+	background-color: #FFFFFF;
+	transition: background-color var(--transition), border var(--transition), outline var(--transition); 
+}
+
+.textarea:hover {
+	background-color: var(--background);
+	border: 1px solid var(--accent);
+}
+
+.textarea:focus {
+	background-color: var(--background);
+	border: 1px solid var(--accent);
 }
 
 .textarea::placeholder {

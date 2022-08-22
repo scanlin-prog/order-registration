@@ -3,11 +3,26 @@
 	border: 1px solid transparent;
 	border-radius: 16px;
 	cursor: pointer;
+	opacity: 1;
+	transition: border var(--transition), background-color var(--transition), opacity var(--transition);
+}
+
+.day:hover {
+	border: 1px solid var(--accent);
+	background-color: var(--background-dark);
+}
+
+.day:active {
+	opacity: 0.5;
 }
 
 .day_active {
 	border: 1px solid var(--accent);
 	background-color: var(--background-dark);
+}
+
+.day_invalid {
+	border: 1px solid red;
 }
 
 .day__number {

@@ -24,6 +24,10 @@
 	background-color: var(--accent);
 }
 
+.tab_invalid {
+	border: 1px solid red;
+}
+
 .tab__text {
 	margin: 7px 16px;
 	padding: 0;

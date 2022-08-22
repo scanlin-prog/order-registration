@@ -1,0 +1,36 @@
+.submit-button {
+	width: 40%;
+	height: 50px;
+	margin: 0 auto 60px;
+	border: none;
+	border-radius: 8px;
+	background-color: var(--universal);
+	color: var(--text-white);
+	font-family: var(--userfont);
+	font-size: var(--button-text);
+	font-weight: var(--medium-weight);
+	cursor: pointer;
+	transition: background-color var(--transition);
+}
+
+.submit-button:hover {
+	background-color: #E71C71;
+}
+
+.submit-button:active {
+	background-color: #580A2B;
+}
+
+.submit-button_disabled {
+	background-color: gray;
+}
+
+.submit-button[disabled]:hover {
+	background-color: gray;
+}
+
+@media (max-width: 575px) {
+	.submit-button {
+		width: 80%;
+	}
+}

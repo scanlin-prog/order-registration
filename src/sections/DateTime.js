@@ -7,8 +7,8 @@ function DateTime(props) {
 
 	return (
 		<Container title={`Выберите удобные дату и время`}>
-			<DateContainer decade={props.decade} dateTitle={props.dateTitle} handleButtonRightClick={props.handleButtonRightClick} handleButtonLeftClick={props.handleButtonLeftClick} />
-			<TimeContainer />
+			<DateContainer decade={props.decade} dateTitle={props.dateTitle} idContainer={`date-container`} handleDateClick={props.handleDateTimeClick} handleButtonRightClick={props.handleButtonRightClick} handleButtonLeftClick={props.handleButtonLeftClick} addCheckBoxValue={props.addCheckBoxValue} />
+			<TimeContainer idContainer={`time-container`} handleTimeClick={props.handleDateTimeClick} addCheckBoxValue={props.addCheckBoxValue} />
 		</Container>
 	);
 }

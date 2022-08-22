@@ -1,4 +1,5 @@
 .time-container {
+	position: relative;
 	width: 100%;
 	display: grid;
 	grid-template: auto / repeat(5, 1fr);

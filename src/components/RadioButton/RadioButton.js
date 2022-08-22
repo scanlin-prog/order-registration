@@ -3,19 +3,17 @@ import './RadioButton.css';
 
 function RadioButton(props) {
 
-	const [isActive, setActive] = React.useState(false);
-
-	function handleRadioButtonClick() {
-		setActive(!isActive)
+	function handleRadioButtonClick(evt) {
+		props.handleRadioButtonClick(evt)
+		props.addCheckBoxValue(props.variantKey, props.title)
 	}
 
 	return (
-		<div className={`input ${isActive ? `input_active` : ''} radio-button-wrapper ${props.class}`}>
+		<div className={`input radio-button-wrapper ${props.class}`}>
 			<div className="radio-button" onClick={handleRadioButtonClick}>
-				<div className={`radio-button__icon ${isActive ? 'radio-button__icon_active' : ''}`}></div>
+				<div className={`radio-button__icon`}></div>
 				<p className="radio-button__text">{props.title}</p>
 			</div>
-			{/* <span className="input__message-error">Пропущенное поле</span> */}
 		</div>
 	);
 }

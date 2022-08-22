@@ -3,11 +3,26 @@
 	border: 1px solid var(--background-dark);
 	border-radius: 16px;
 	cursor: pointer;
+	opacity: 1;
+		transition: border var(--transition), background-color var(--transition), opacity var(--transition);
+}
+
+.time:hover {
+	border: 1px solid var(--accent);
+	background-color: var(--background-dark);
+}
+
+.time:active {
+	opacity: 0.5;
 }
 
 .time_active {
 	border: 1px solid var(--accent);
 	background-color: var(--background-dark);
+}
+
+.time_invalid {
+	border: 1px solid red;
 }
 
 .time__number {

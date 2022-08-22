@@ -1,6 +1,11 @@
 export const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
 export const weekDays = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
 export const currentDate = new Date()
+
+export const defaultData = {
+	parameter: false,
+}
+
 export const today = {
 	month: currentDate.getMonth(),
 	weekDay: currentDate.getDay(),

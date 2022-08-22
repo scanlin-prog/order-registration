@@ -1,5 +1,7 @@
 .page {
   position: relative;
+  display: flex;
+  flex-direction: column;
   max-width: 752px;
   width: 100%;
   margin: 24px auto;

@@ -3,11 +3,13 @@ import './InputSelect.css';
 
 function InputSelect(props) {
 	return (
-		<div className={`input ${props.class}`}>
-			<select id="citizenship" className="input__placeholder input__select">
+		<div className={`input ${props.class} ${props.errors?.[props.name] && 'input_invalid'}`}>
+			<select id="citizenship" className="input__placeholder input__select"
+				{...props.register(props.name)}
+			>
 				{
-					props.data.map((unitData) => {
-						return <option value={unitData.value}>{unitData.text}</option>
+					props.data.map((unitData, index) => {
+						return <option key={index} value={unitData.value}>{unitData.text}</option>
 					})
 				}
 			</select>

@@ -1,4 +1,5 @@
 .tab-container {
+	position: relative;
 	display: flex;
 	margin-bottom: 40px;
 }

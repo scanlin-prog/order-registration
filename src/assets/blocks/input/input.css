@@ -8,11 +8,22 @@
 	border: 1px solid var(--background-dark);
 	border-radius: 8px;
 	margin-bottom: 5px;
+	background-color: #FFFFFF;
+	transition: background-color var(--transition), border var(--transition);
+}
+
+.input:hover {
+	background-color: var(--background);
 }
 
 .input_active {
 	border: 1px solid var(--accent);
 	background-color: var(--background);
+	border-radius: 8px;
+}
+
+.input_invalid {
+	border: 1px solid red;
 }
 
 .input-grid-address {
@@ -53,6 +64,11 @@
 	line-height: 1.25;
 }
 
+.input__placeholder:focus {
+	background-color: var(--background);
+	outline: 1px solid var(--accent);
+}
+
 .input__placeholder[type=date] {
 	cursor: text;
 }
@@ -62,15 +78,6 @@
 	width: 24px;
 	height: 24px;
 	cursor: pointer;
-}
-
-.input__message-error {
-	position: absolute;
-	bottom: -5px;
-	left: 0;
-	transform: translate(16px, 100%);
-	font-size: 12px;
-	color: red;
 }
 
 .input__icon {
@@ -110,9 +117,5 @@
 	.input-grid-address {
 		grid-column: auto;
 		grid-row: auto;
-	}
-
-	.input__message-error {
-		bottom: -2px;
 	}
 }

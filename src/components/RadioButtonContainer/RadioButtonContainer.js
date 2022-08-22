@@ -4,8 +4,9 @@ import './RadioButtonContainer.css';
 function RadioButtonContainer(props) {
 
 	return (
-		<div className={`radio-button-container ${props.class}`}>
+		<div id={`${props.idContainer}`} className={`radio-button-container ${props.class}`}>
 			{props.children}
+			<span className="message-error message-error_hidden">Пропущенное поле</span>
 		</div>
 	);
 }

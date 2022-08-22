@@ -3,15 +3,15 @@ import './Tab.css';
 
 
 function Tab(props) {
-	const [isActive, setActive] = React.useState(false)
 
-	function handleClick() {
-		setActive(!isActive)
+	function handleTabClick(evt) {
+		props.handleTabClick(evt)
+		props.addCheckBoxValue(props.variantKey, props.text)
 	}
 
 	return (
-		<div className={`tab ${isActive ? 'tab_active' : ''}`} onClick={handleClick}>
-			<p className={`tab__text ${isActive ? 'tab__text_active' : ''}`}>{props.text}</p>
+		<div className={`tab`} onClick={handleTabClick}>
+			<p className={`tab__text`}>{props.text}</p>
 		</div>
 	);
 }

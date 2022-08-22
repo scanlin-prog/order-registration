@@ -3,10 +3,9 @@ import Day from '../Day/Day';
 import './DateContainer.css';
 
 function DateContainer(props) {
-	const [boolean, setBoolean] = React.useState(false)
 
-	function resetActiveDay() {
-		setBoolean(false)
+	function handleDayClick(evt) {
+		props.handleDateClick(evt, 'date-container', 'day');
 	}
 
 	function handleButtonRightClick() {
@@ -29,28 +28,26 @@ function DateContainer(props) {
 		}
 	}
 
-	function checkDecade() {
-		console.log()
-	}
-
 	return (
 		<div className="date">
 			<div className="date__header">
 				<div className="arrow date__button-left" onClick={handleButtonLeftClick}></div>
-				<p className="date__title" onClick={checkDecade}>
+				<p className="date__title">
 					{props.dateTitle}
 				</p>
 				<div className="arrow date__button-right" onClick={handleButtonRightClick}></div>
 			</div>
-			<div className="date__days">
+			<div id={`${props.idContainer}`} className="date__days">
 				{
 					props.decade.map((day, index) => {
 						return (
-							<Day key={index} boolean={boolean} number={day.day} weekday={day.weekDay} resetActiveDay={resetActiveDay} />
+							<Day key={index} number={day.day} weekday={day.weekDay} month={day.month} handleDayClick={handleDayClick} variantKey={`selectedDay`} addCheckBoxValue={props.addCheckBoxValue} />
 						)
 					})
 				}
+				<span className="message-error message-error_hidden">Пропущенное поле</span>
 			</div>
+			
 		</div>
 	);
 }

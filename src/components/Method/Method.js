@@ -3,10 +3,14 @@ import './Method.css';
 
 function Method(props) {
 
+	function buttonClick(evt) { 
+		evt.preventDefault()
+	 }
+
 	return (
 		<div className="method">
 			<p className="method__text">{props.text}</p>
-			<button className="method__button">Выбрать</button>
+			<button className="method__button" onClick={buttonClick}>Выбрать</button>
 		</div>
 	);
 }

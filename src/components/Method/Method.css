@@ -25,14 +25,33 @@
 	font-size: var(--button-text);
 	font-weight: var(--medium-weight);
 	cursor: pointer;
+	transition: background-color var(--transition);
+}
+
+.method__button:hover {
+	background-color: #E71C71;
+}
+
+.method__button:active {
+	background-color: #580A2B;
 }
 
 @media (max-width : 575px) {
 
+	.method {
+		flex-direction: column;
+	}
+
+	.method__text {
+		margin: 25px 0 15px; 
+		text-align: center;
+	}
+
 	.method__button {
-		width: 80px;
-		height: 32px;
+		width: 160px;
+		height: 40px;
 		font-size: var(--input-text);
 		flex-shrink: 0;
+		margin-bottom: 25px;
 	}
 }
