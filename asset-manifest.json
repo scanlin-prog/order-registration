@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/order-registration/static/css/main.93ef59e1.css",
-    "main.js": "/order-registration/static/js/main.c82981f4.js",
+    "main.css": "/order-registration/static/css/main.2965ac83.css",
+    "main.js": "/order-registration/static/js/main.7b8ae4b4.js",
     "static/js/787.8afc6af1.chunk.js": "/order-registration/static/js/787.8afc6af1.chunk.js",
     "static/media/PTRootUI_Light.woff2": "/order-registration/static/media/PTRootUI_Light.4e1d299c6bbc1d2ea808.woff2",
     "static/media/PTRootUI_Medium.woff2": "/order-registration/static/media/PTRootUI_Medium.44ea5906be7a83324455.woff2",
@@ -15,12 +15,12 @@
     "static/media/arrow_down.svg": "/order-registration/static/media/arrow_down.7ac09a30d74553dd5afd.svg",
     "static/media/checkbox.svg": "/order-registration/static/media/checkbox.e89a291cf28f084e92c6.svg",
     "static/media/checkbox_active.svg": "/order-registration/static/media/checkbox_active.662e0f59c181a56f037a.svg",
-    "main.93ef59e1.css.map": "/order-registration/static/css/main.93ef59e1.css.map",
-    "main.c82981f4.js.map": "/order-registration/static/js/main.c82981f4.js.map",
+    "main.2965ac83.css.map": "/order-registration/static/css/main.2965ac83.css.map",
+    "main.7b8ae4b4.js.map": "/order-registration/static/js/main.7b8ae4b4.js.map",
     "787.8afc6af1.chunk.js.map": "/order-registration/static/js/787.8afc6af1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93ef59e1.css",
-    "static/js/main.c82981f4.js"
+    "static/css/main.2965ac83.css",
+    "static/js/main.7b8ae4b4.js"
   ]
 }
